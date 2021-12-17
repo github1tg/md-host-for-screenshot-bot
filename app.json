@@ -1,0 +1,55 @@
+{
+ "name": "TG Files to Link",
+ "description": "Telegram files to Direct link!!",
+ "logo": "https://telegra.ph/file/c3d25aa057a3aa2282d50.png",
+ "keywords": [
+   "telegram",
+   "FiletoLinkBot",
+   "For ScreenShot Bot"
+  ],
+ "repository": "https://github.com/github1tg/musical-waddle",
+ "env": {
+   "PORT": {
+      "description": "Your Telegram API ID. Get this value from my.telegram.org!",
+      "value": "8080"
+  },
+   "TG_API_ID": {
+      "description": " Your Telegram API hash. Get this value from my.telegram.org!",
+      "value": "5395941"
+  },
+   "TG_API_HASH": {
+      "description": "Your Bot token, as a string",
+      "value": "9aea9af579947996236b73d79f234b5a"
+  },
+   "HOST": {
+      "description": "Leave the Same Value",
+      "value": "0.0.0.0",
+      "required": false
+  },
+   "PUBLIC_URL": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": "https://file-animating-host.herokuapp.com"
+ },
+   "TG_SESSION_NAME": {
+      "description": " Your Telegram API hash. Get this value from my.telegram.org!",
+      "value": "tgfilestream"
+  },
+   "BOT_TOKEN": {
+      "description": "Your Bot token, as a string",
+      "value": "1956659748:AAEwefqvABRPJRTWXVOVgwyTQTuYstGUl4w"
+  },
+   "LOG_CONFIG": {
+      "description": "Leave the Same Value",
+      "value": "DEBUG",
+      "required": false
+  },
+   "REQUEST_LIMIT": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": "5"
+ },
+   "CONNECTION_LIMIT": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": "20"
+  }
+ }
+}
